@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from app import db
 db.create_all()
 
-app = Flask(__name__)
+app = Flask(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:yan123@./db/todo_db'
 db = SQLAlchemy(app)
 
