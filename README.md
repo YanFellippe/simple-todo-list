@@ -7,8 +7,8 @@ Este é um projeto de To-Do List desenvolvido em Python utilizando o framework F
 - Python
 - Flask
 - Flask-SQLAlchemy
-- MySQL (ou outro banco de dados relacional)
-- Redis (para caching, se implementado)
+- MySQL
+- Redis 
 
 ## Funcionalidades
 
